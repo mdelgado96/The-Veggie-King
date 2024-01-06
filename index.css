@@ -1,19 +1,48 @@
-/* This is an example CSS file, feel free to remove/edit it anytime */
-.footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 10px;
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.footer a {
-  font-size: 14px;
-  font-weight: bold;
-  text-decoration: none;
+@font-face {
+  font-family: Raleway-Black;
+  src: url("assets/fonts/Raleway-Black.ttf");
 }
 
-.footer span {
-  font-size: 14px;
+@font-face {
+  font-family: Raleway-Medium;
+  src: url("assets/fonts/Raleway-Medium.ttf");
+}
+
+@font-face {
+  font-family: Raleway-Regular;
+  src: url("assets/fonts/Raleway-Regular.ttf");
+}
+
+@font-face {
+  font-family: Raleway-SemiBold;
+  src: url("assets/fonts/Raleway-SemiBold.ttf");
+}
+
+nav {
+  height: 80px;
+}
+
+.nav-container {
+  display: flex;
+  height: 80px;
+  padding: 0 24px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  font-family: Raleway-Regular;
+}
+
+.nav-title {
+  padding-left: 50px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
