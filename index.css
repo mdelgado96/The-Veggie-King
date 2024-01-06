@@ -27,22 +27,28 @@ nav {
   height: 80px;
 }
 
-.nav-container {
+.nav_container {
   display: flex;
   height: 80px;
   padding: 0 24px;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
   font-family: Raleway-Regular;
 }
 
-.nav-title {
+.nav_title {
   padding-left: 50px;
 }
 
-.nav-links {
+.nav_links {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  height: 20px;
+  padding-right: 40px;
+}
+
+li {
+  list-style-type: none;
+  margin: 5px 15px 5px 10px;
 }
