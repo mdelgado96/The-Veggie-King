@@ -33,7 +33,7 @@ nav {
   padding: 0 24px;
   justify-content: space-between;
   align-items: center;
-  font-family: Raleway-Regular;
+  font-family: Raleway-SemiBold;
 }
 
 .nav_title {
@@ -48,7 +48,54 @@ nav {
   padding-right: 40px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 li {
   list-style-type: none;
+  text-decoration: none;
   margin: 5px 15px 5px 10px;
+}
+
+.section_1 {
+  display: flex;
+  height: 700px;
+}
+
+.section1_left {
+  width: 70%;
+}
+
+.section1_description {
+  position: relative;
+  top: 200px;
+  left: 100px;
+}
+
+.s1_title {
+  font-family: Raleway-Black;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.s1_info {
+  font-family: Raleway-Medium;
+  margin-bottom: 20px;
+}
+
+.section1_right {
+  background-color: green;
+  width: 30%;
+}
+
+.slideshow {
+  position: absolute;
+  right: 280px;
+  top: 150px;
+}
+
+.slideshow_img {
+  height: 570px;
 }
