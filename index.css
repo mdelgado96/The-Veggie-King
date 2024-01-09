@@ -59,6 +59,11 @@ li {
   margin: 5px 15px 5px 10px;
 }
 
+.chili {
+  position: absolute;
+  top: 600px;
+}
+
 .section_1 {
   display: flex;
   height: 700px;
@@ -90,6 +95,20 @@ li {
   width: 30%;
 }
 
+.check_menu {
+  background-color: orange;
+  border: 0;
+  border-radius: 5px;
+  height: 40px;
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: Raleway-SemiBold;
+  font-size: 15px;
+}
+
 .slideshow {
   position: absolute;
   right: 280px;
@@ -98,4 +117,18 @@ li {
 
 .slideshow_img {
   height: 570px;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
 }

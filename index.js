@@ -1,6 +1,15 @@
-/* This is an example JavaScript file, feel free to remove/edit it anytime */
-console.log(
-  "%cProject by BigDevSoon",
-  'font-size: 40px; font-weight: bold; color: #8A2BE2; font-family: "Comic Sans MS", cursive, sans-serif;'
-);
-console.log("Check out more projects at https://bigdevsoon.me");
+let index = 0;
+displayFoods();
+function displayFoods() {
+  let i;
+  const foods = document.getElementsByClassName("food");
+  for (i = 0; i < foods.length; i++) {
+    foods[i].style.display = "none";
+  }
+  index++;
+  if (index > foods.length) {
+    index = 1;
+  }
+  foods[index - 1].style.display = "block";
+  setTimeout(displayFoods, 3000);
+}
