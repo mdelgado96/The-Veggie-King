@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -24,12 +28,11 @@
 }
 
 nav {
-  height: 80px;
+  height: 70px;
 }
 
 .nav_container {
   display: flex;
-  height: 80px;
   padding: 0 24px;
   justify-content: space-between;
   align-items: center;
@@ -131,4 +134,50 @@ li {
   to {
     opacity: 1;
   }
+}
+
+.section_2 {
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 0;
+}
+
+.section_2_circle {
+  position: absolute;
+  background-color: green;
+  height: 700px;
+  width: 700px;
+  border-radius: 700px;
+  left: -300px;
+  z-index: -1;
+}
+
+.section2_left_img {
+  position: relative;
+  object-fit: contain;
+  height: 500px;
+  left: 50px;
+  top: 100px;
+}
+
+.section2_right {
+  position: relative;
+  right: 300px;
+  top: 280px;
+}
+
+.s2_aboutus {
+  font-family: Raleway-Regular;
+  color: rgb(240, 183, 78);
+  padding-bottom: 10px;
+}
+
+.s2_title {
+  font-family: Raleway-SemiBold;
+  padding-bottom: 10px;
+}
+
+.s2_info {
+  font-family: Raleway-Regular;
 }
