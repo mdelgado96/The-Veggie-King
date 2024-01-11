@@ -27,6 +27,11 @@ html {
   src: url("assets/fonts/Raleway-SemiBold.ttf");
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+}
+
 nav {
   height: 70px;
 }
@@ -161,23 +166,36 @@ li {
   top: 100px;
 }
 
-.section2_right {
+.section2_right_container {
   position: relative;
-  right: 300px;
-  top: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 400px;
 }
 
-.s2_aboutus {
+.section_link {
   font-family: Raleway-Regular;
   color: rgb(240, 183, 78);
-  padding-bottom: 10px;
+  padding-bottom: 12px;
 }
 
-.s2_title {
+.section_title {
   font-family: Raleway-SemiBold;
-  padding-bottom: 10px;
+  padding-bottom: 12px;
 }
 
-.s2_info {
+.section_info {
   font-family: Raleway-Regular;
+}
+
+.menu_container {
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu_info {
+  font-size: 12px;
 }
