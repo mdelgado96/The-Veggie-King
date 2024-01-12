@@ -199,3 +199,37 @@ li {
 .menu_info {
   font-size: 12px;
 }
+
+.s3_bottom {
+  display: flex;
+}
+
+.menu_card {
+  height: 250px;
+  width: 250px;
+  margin-top: 35px;
+  margin-right: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 5px 10px 18px #bcbcbc;
+}
+
+.menu_burger_img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.food_title {
+  font-family: Raleway-Regular;
+  padding: 10px 0 10px 10px;
+}
+
+.food_info {
+  font-family: Raleway-Medium;
+  font-size: 13px;
+  padding-left: 10px;
+}
+
+.last_card {
+  margin-right: 0;
+}
