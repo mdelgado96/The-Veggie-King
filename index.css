@@ -218,20 +218,26 @@ li {
   width: 100%;
 }
 
-.food_title {
+.card_title {
   font-family: Raleway-Regular;
   padding: 10px 0 10px 10px;
 }
 
-.food_info {
+.card_info {
   font-family: Raleway-Medium;
   font-size: 13px;
   padding-left: 10px;
 }
 
+.bottom {
+  margin-bottom: 10px;
+}
+
 .grid {
   height: 700px;
+  max-width: 1600px;
   margin-top: 10px;
+  margin-bottom: 10px;
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-template-rows: repeat(2, auto);
@@ -245,4 +251,21 @@ li {
 .gallery_img {
   width: 100%;
   height: 100%;
+}
+
+.contact_container {
+  height: 700px;
+}
+
+.contact_info {
+  display: flex;
+}
+
+.contact_card {
+  height: 120px;
+  width: 300px;
+  margin: 30px 10px 0;
+  padding-top: 20px;
+  border-radius: 100px;
+  box-shadow: 5px 10px 18px #bcbcbc;
 }
