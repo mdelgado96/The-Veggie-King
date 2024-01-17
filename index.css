@@ -254,7 +254,9 @@ li {
 }
 
 .contact_container {
-  height: 700px;
+  height: 370px;
+  margin-top: 40px;
+  padding-top: 40px;
 }
 
 .contact_info {
@@ -268,4 +270,47 @@ li {
   padding-top: 20px;
   border-radius: 100px;
   box-shadow: 5px 10px 18px #bcbcbc;
+}
+
+.footer_container {
+  height: 200px;
+  background-color: rgb(238, 238, 238);
+}
+
+.footer_row {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.links_footer {
+  font-family: Raleway-Medium;
+}
+
+.info_icons {
+  display: flex;
+  margin-top: 20px;
+}
+
+.facebook_icon {
+  margin: 0 10px 0;
+}
+
+.info_para {
+  font-family: Raleway-Medium;
+  font-size: 12px;
+}
+
+.footer_line {
+  height: 0.8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: lightgray;
+}
+
+.footer_copyright {
+  margin-left: 40px;
+  padding-left: 40px;
 }
