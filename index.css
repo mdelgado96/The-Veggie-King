@@ -109,12 +109,28 @@ li {
   border-radius: 5px;
   height: 40px;
   width: 150px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   font-family: Raleway-SemiBold;
   font-size: 15px;
+}
+
+.check_menu:hover,
+.menu_card:hover,
+.gallery_img:hover {
+  transform: scale(1.03);
+}
+
+.gallery_img:hover {
+  filter: brightness(150%);
+}
+
+.social_icon:hover {
+  transform: scale(1.1);
+}
+
+.check_menu-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .slideshow {
@@ -291,7 +307,9 @@ li {
 
 .info_icons {
   display: flex;
+  justify-content: space-between;
   margin-top: 20px;
+  width: 90px;
 }
 
 .facebook_icon {
