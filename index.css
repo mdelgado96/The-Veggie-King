@@ -27,10 +27,17 @@ html {
   src: url("assets/fonts/Raleway-SemiBold.ttf");
 }
 
+body {
+  max-width: 1669px;
+  margin: auto;
+}
+
 .center {
   display: flex;
   justify-content: center;
 }
+
+/* Landing Section */
 
 nav {
   height: 70px;
@@ -103,10 +110,12 @@ li {
   width: 30%;
 }
 
+/* Menu Section */
+
 .check_menu {
   background-color: orange;
   border: 0;
-  border-radius: 5px;
+  border-radius: 10px;
   height: 40px;
   width: 150px;
   font-family: Raleway-SemiBold;
@@ -156,6 +165,8 @@ li {
     opacity: 1;
   }
 }
+
+/* About Us */
 
 .section_2 {
   height: 700px;
@@ -245,6 +256,8 @@ li {
   padding-left: 10px;
 }
 
+/* Gallery Section */
+
 .bottom {
   margin-bottom: 10px;
 }
@@ -269,6 +282,8 @@ li {
   height: 100%;
 }
 
+/* Contact Section */
+
 .contact_container {
   height: 370px;
   margin-top: 40px;
@@ -287,6 +302,8 @@ li {
   border-radius: 100px;
   box-shadow: 5px 10px 18px #bcbcbc;
 }
+
+/* Footer Section */
 
 .footer_container {
   height: 200px;
@@ -331,4 +348,42 @@ li {
 .footer_copyright {
   margin-left: 40px;
   padding-left: 40px;
+}
+
+@media (max-width: 550px) {
+  .section_1 {
+    height: 800px;
+    justify-content: space-between;
+  }
+
+  .section1_description {
+    top: 100px;
+    left: 15px;
+  }
+
+  .s1_info {
+    width: 280px;
+  }
+
+  .s1_title {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .section1_right {
+    width: 12%;
+  }
+
+  .slideshow {
+    right: -210px;
+    top: 120px;
+  }
+
+  .slideshow_img {
+    height: 300px;
+  }
+
+  .chili {
+    top: 700px;
+  }
 }
