@@ -13,3 +13,11 @@ function displayFoods() {
   foods[index - 1].style.display = "block";
   setTimeout(displayFoods, 3000);
 }
+
+function openMenu() {
+  document.body.classList += " menu--open";
+}
+
+function closeMenu() {
+  document.body.classList.remove("menu--open");
+}

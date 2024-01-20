@@ -15,6 +15,27 @@
           <li><a href="#menu"> MENU</a></li>
           <li><a href="#contact"> CONTACT</a></li>
         </ul>
+        <button class="btn__menu" onclick="openMenu()">
+          <img src="assets/icons/check-menu-icon.svg" alt="check-menu-icon" />
+        </button>
+        <div class="menu__backdrop">
+          <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+            <img src="assets/icons/close-menu-icon.svg" alt="close-menu-icon" />
+          </button>
+          <ul class="menu__links">
+            <li class="menu__list">
+              <a href="#about_us" class="menu__link" onclick="closeMenu()"
+                >About Us</a
+              >
+            </li>
+            <li class="menu__list">
+              <a href="#menu" class="menu__link" onclick="closeMenu()">Menu</a>
+            </li>
+            <li class="menu__list">
+              <a class="menu__link no-cursor" onclick="closeMenu()">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
