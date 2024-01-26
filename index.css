@@ -500,16 +500,30 @@ li {
   }
 
   .menu_card {
-    width: 100%;
+    width: auto;
+    height: auto;
+    margin: 20px 5px 0px;
+    padding-bottom: 10px;
   }
 
   .menu_container {
     height: 1000px;
+    margin-top: 150px;
+    margin-bottom: 120px;
+  }
+
+  .grid {
+    height: auto;
+    max-width: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
   }
 
   .contact_container {
-    height: 370px;
+    height: auto;
     margin-top: 40px;
+    margin-bottom: 40px;
     padding-top: 40px;
   }
 
@@ -519,11 +533,8 @@ li {
   }
 
   .contact_card {
-    height: 120px;
-    width: 300px;
-    margin: 30px 10px 0;
-    padding-top: 20px;
-    border-radius: 100px;
-    box-shadow: 5px 10px 18px #bcbcbc;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
