@@ -326,6 +326,14 @@ li {
   font-family: Raleway-Medium;
 }
 
+.footer_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 20px;
+  padding-right: 40px;
+}
+
 .info_icons {
   display: flex;
   justify-content: space-between;
@@ -545,6 +553,20 @@ li {
   }
 
   .footer_row {
-    display: inline;
+    flex-direction: column;
+    height: 300px;
+    padding-left: 20px;
+  }
+
+  .links_footer {
+    height: auto;
+  }
+
+  .footer_links {
+    flex-direction: column;
+  }
+
+  .footer_copyright {
+    padding-left: 0;
   }
 }
