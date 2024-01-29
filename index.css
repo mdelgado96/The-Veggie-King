@@ -562,11 +562,22 @@ li {
     height: auto;
   }
 
+  .li {
+    margin-left: 0;
+  }
+
   .footer_links {
     flex-direction: column;
+    line-height: 30px;
+  }
+
+  .info_para {
+    font-size: 14px;
+    width: 300px;
   }
 
   .footer_copyright {
     padding-left: 0;
+    margin-left: 20px;
   }
 }
