@@ -234,8 +234,8 @@ li {
 }
 
 .menu_card {
-  height: 250px;
-  width: 250px;
+  /* height: auto; */
+  width: 380px;
   margin: 35px 10px 0;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -245,6 +245,10 @@ li {
 .menu_burger_img {
   object-fit: contain;
   width: 100%;
+}
+
+.card_desc {
+  padding-bottom: 20px;
 }
 
 .card_title {
@@ -472,6 +476,24 @@ li {
 
   .section2_info {
     line-height: 1.8;
+  }
+
+  .menu_card {
+    margin: 20px 10px 0;
+    width: auto;
+  }
+
+  .s3_bottom {
+    width: 700px;
+  }
+
+  .grid {
+    height: auto;
+  }
+
+  .contact_card {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
