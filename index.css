@@ -491,9 +491,21 @@ li {
     height: auto;
   }
 
+  .contact_container {
+    margin-bottom: 150px;
+  }
+
+  .contact_info {
+    flex-wrap: wrap;
+  }
+
   .contact_card {
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  .footer_container {
+    height: auto;
   }
 }
 
