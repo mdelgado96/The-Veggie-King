@@ -269,7 +269,7 @@ li {
 }
 
 .grid {
-  height: 700px;
+  height: auto;
   max-width: 1600px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -506,6 +506,24 @@ li {
 
   .footer_container {
     height: auto;
+  }
+
+  .footer_row {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .footer_links {
+    flex-direction: column;
+    height: auto;
+    padding-right: 40px;
+    padding-left: 30px;
+  }
+
+  .footer_copyright {
+    margin-left: 0;
   }
 }
 
